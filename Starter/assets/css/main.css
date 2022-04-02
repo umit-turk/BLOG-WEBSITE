@@ -170,7 +170,7 @@ body.light-theme{
 .header.activated{
     box-shadow: 0 1px .5rem var(--transparent-light-color);
 }
-.menu .activated{
+.menu.activated{
     box-shadow: 1 1px 1rem var(--transparent-light-color);
     opacity: 1;
     transform: scale(1);
@@ -184,6 +184,9 @@ body.light-theme{
 }
 
 /* Search */
+.search{
+    height: 2000rem;
+}
 
 /* Form JavaScript styles */
 
